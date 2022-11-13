@@ -1,0 +1,17 @@
+package Practice;
+
+public class Practice_LinearArray {
+    public static void main(String[] args) {
+        String[] kidNames = new String[]{"Sam", "Cody", "Drake"};
+
+        int[] ages = new int[]{2, 6, 8};
+
+        int i = 0;
+        while (i < ages.length) {
+
+            System.out.println("My child's name is " + kidNames[i] + " and he is " + ages[i]);
+            i++;
+
+        }//end of while loop
+    }//end of main
+}//end of java
