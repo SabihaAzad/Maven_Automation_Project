@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 
 public class T2_StringComparison extends Reusable_Annotations {
 
+    //ugly
+
     @Test(priority = 1)
     public void tc001_verifyYahooPageTitle() {
         //first navigate to yahoo homepage
